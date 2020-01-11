@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-info{
+    width: 60%;
+    background-image: url('./img/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 100%;
+}
+
+.form-content{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.sign-in{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h2-main{
+    color: #031a2b;
+    margin: 15px;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.text-info{
+    width: 70%;
+    height: 6rem;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.access{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.social-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.google, .linkedin{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+
+.google, .linkedin{
+    border: 1px solid grey;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google p, 
+.linkedin p {
+    padding: 10px;
+    font-size: .8rem;
+}
+
+
+.linkedin-img{
+     background-color: #0179B1;
+     width: 100%;
+     height: 70%;
+     border-radius: 5px 0px 0px 5px;
+}
+
+.social-container_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid grey;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.access{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.with{
+    width: 100%;
+    height: 20%;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.text{
+    width: 17%;
+    padding: 5px;
+    color: #666666;
+}
+
+.text-2{
+    width: 25%;
+    padding: 3px;
+    color:#666666;
+}
+
+
+.img{
+    width: 30%;
+    height: 1.5rem;
+}
+
+.img-2{
+    width: 26%;
+    height: 1.5rem;
+}
+
+.full{
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.Password{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.input-form{
+    width: 100%;
+    height: 2.5rem;
+    margin: 15px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.social{
+    width: 100%;
+    text-decoration: none;
+    color: #666666;
+}
+label, .Password{
+    font-size: 1rem;
+}
+
+.btn{
+    width: 20%;
+    height: 3rem;
+    background-color: #3062FF;
+    border: none;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: ease-in .2s;
+}
+
+.create-account{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #666666;
+}
+
+::placeholder{
+    padding: 10px;
+}
